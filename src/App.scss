@@ -1,0 +1,19 @@
+
+
+$back-dark : rgb(71, 54, 196);
+$back-light : rgb(255, 255, 255);
+
+
+.h1class{
+    background-color: $back-light;
+    text-align: center;
+    color: $back-dark;
+    padding: .2em;
+    margin: 1em 10em;
+    border-radius: 1em;
+    box-shadow: 0px 0px 10px -10px;
+    transition: .1s;
+    &:hover{
+        box-shadow: 0px 2px 10px -9px;
+    }
+}
